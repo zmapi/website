@@ -1,0 +1,130 @@
+/* your custom css */
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
+
+/* Navigation Slider */
+.navigationSlider .slidingNav ul li a {
+  color: $secondaryColor;
+}
+/* End of Navigation Slider */
+.homeContainer .homeWrapper .projectLogo img {
+    height: 200px;
+  margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .homeContainer .homeWrapper .projectLogo {
+    justify-content: center;
+    position: relative;
+     padding: 0em 0px 0em;
+  }
+}
+
+@media only screen and (min-width: 736px) {
+  .homeContainer .homeWrapper {
+    position: relative;
+  }
+}
+
+.homeContainer {
+  text-align: center;
+  background: $secondaryColor;
+}
+
+/* Buttons */
+.button {
+  border-radius: 3px;
+  background: $primaryColor;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2em;
+  padding: 10px;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  transition: background 0.3s, color 0.3s;
+}
+
+.button:hover {
+  color: $secondaryColor;
+}
+
+/*
+ul li a {
+  color: $linkColor;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #secondaryColor;
+  text-decoration: none;
+}
+*/
+
+a {
+  color: $linkColor;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #secondaryColor;
+  text-decoration: none;
+}
+
+
+
+.tryoutContainer{
+    background: #30303018
+}
+
+/* Footer */
+.nav-footer{
+   background: #000; 
+}
+
+.fixedHeaderContainer header h3 {
+  color: #ffd572;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.fixedHeaderContainer header h3:hover {
+	color: white;
+  text-decoration: none;
+}
+
+/* For mobile interface */
+.navigationSlider .slidingNav ul {
+	background: black;
+}
+
+
+/*
+img[src*='#left'] {
+    float: left;
+}
+img[src*='#right'] {
+    float: right;
+}
+img[src*='#center'] {
+    display: block;
+    margin: auto;
+}
+*/
+

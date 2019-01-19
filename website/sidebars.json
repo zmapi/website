@@ -1,0 +1,19 @@
+{
+  "docs": {
+		"Getting Started": [
+			"try-it-out",
+			"module-chain-tutorial",
+			"connector-tutorial"
+		],
+		"Pages": [
+			"message-format-specification",
+			"connector-level-api",
+			"language-specific-libraries",
+			"difference-between-fix-and-zmapi",
+			"design-principles",
+			"zmq",
+			"versions",
+			"faq"
+		]
+  }
+}
